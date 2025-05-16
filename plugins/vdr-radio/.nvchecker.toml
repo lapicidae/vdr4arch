@@ -1,0 +1,4 @@
+[plugins_vdr-radio]
+source = "github"
+github = "vdr-projects/vdr-plugin-radio"
+use_max_tag = true

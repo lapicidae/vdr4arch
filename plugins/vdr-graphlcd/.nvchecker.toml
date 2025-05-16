@@ -1,0 +1,4 @@
+[plugins_vdr-graphlcd]
+source = "github"
+github = "vdr-projects/vdr-plugin-graphlcd"
+use_max_tag = true

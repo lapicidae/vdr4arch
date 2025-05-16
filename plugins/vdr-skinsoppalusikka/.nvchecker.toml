@@ -1,0 +1,4 @@
+[plugins_vdr-skinsoppalusikka]
+source = "github"
+github = "rofafor/vdr-plugin-skinsoppalusikka"
+use_max_tag = true

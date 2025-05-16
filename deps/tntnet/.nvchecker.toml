@@ -1,0 +1,4 @@
+[deps_tntnet]
+source = "github"
+github = "maekitalo/tntnet"
+use_max_tag = true

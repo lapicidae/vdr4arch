@@ -1,0 +1,4 @@
+[plugins_vdr-femon]
+source = "github"
+github = "rofafor/vdr-plugin-femon"
+use_max_tag = true

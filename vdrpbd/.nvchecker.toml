@@ -1,0 +1,4 @@
+[vdrpbd]
+source = "github"
+github = "M-Reimer/vdrpbd"
+use_max_tag = true

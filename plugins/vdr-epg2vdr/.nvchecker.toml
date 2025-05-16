@@ -1,0 +1,4 @@
+[plugins_vdr-epg2vdr]
+source = "github"
+github = "horchi/vdr-plugin-epg2vdr"
+use_max_tag = true

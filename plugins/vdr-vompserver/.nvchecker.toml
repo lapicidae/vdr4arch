@@ -1,0 +1,4 @@
+[plugins_vdr-vompserver]
+source = "regex"
+url = "https://www.loggytronic.com/vomp.php"
+regex = 'vdr-vompserver-([\d.]+)\.tgz'

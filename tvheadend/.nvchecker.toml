@@ -1,0 +1,4 @@
+[tvheadend]
+source = "github"
+github = "tvheadend/tvheadend"
+use_max_tag = true

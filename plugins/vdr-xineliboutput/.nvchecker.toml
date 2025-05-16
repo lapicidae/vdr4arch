@@ -1,0 +1,4 @@
+[plugins_vdr-xineliboutput]
+source = "regex"
+url = "https://sourceforge.net/projects/xineliboutput/files/xineliboutput/"
+regex = 'vdr-xineliboutput-([\d.]+)'

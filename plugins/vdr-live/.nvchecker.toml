@@ -1,0 +1,4 @@
+[plugins_vdr-live]
+source = "github"
+github = "MarkusEh/vdr-plugin-live"
+use_max_tag = true

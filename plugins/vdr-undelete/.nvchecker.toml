@@ -1,0 +1,4 @@
+[plugins_vdr-undelete]
+source = "regex"
+url = "https://phivdr.dyndns.org/vdr/vdr-undelete/"
+regex = 'vdr-undelete-([\d.]+).*\.tgz'

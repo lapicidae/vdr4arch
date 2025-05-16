@@ -1,0 +1,4 @@
+[plugins_vdr-rssreader]
+source = "github"
+github = "rofafor/vdr-plugin-rssreader"
+use_max_tag = true

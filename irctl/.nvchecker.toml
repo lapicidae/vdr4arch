@@ -1,0 +1,4 @@
+[irctl]
+source = "github"
+github = "olebowle/irctl"
+use_max_tag = true

@@ -1,0 +1,5 @@
+[plugins_vdr-restfulapi]
+source = "github"
+github = "yavdr/vdr-plugin-restfulapi"
+# requires a github token
+use_latest_tag = true

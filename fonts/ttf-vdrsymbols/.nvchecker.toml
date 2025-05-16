@@ -1,0 +1,4 @@
+[fonts_ttf-vdrsymbols]
+source = "regex"
+url = "http://andreas.vdr-developer.org/fonts/download.html"
+regex = 'vdrsymbols-ttf-([\d.]+)\.tgz'

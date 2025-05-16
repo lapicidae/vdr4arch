@@ -1,0 +1,4 @@
+[plugins_vdr-skinflat]
+source = "github"
+github = "vdr-projects/vdr-plugin-skinflat"
+use_max_tag = true

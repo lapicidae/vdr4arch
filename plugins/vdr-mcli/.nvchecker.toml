@@ -1,0 +1,4 @@
+[plugins_vdr-mcli]
+source = "github"
+github = "vdr-projects/vdr-plugin-mcli"
+use_max_tag = true

@@ -1,0 +1,4 @@
+[plugins_vdr-rpihddevice]
+source = "github"
+github = "reufer/rpihddevice"
+use_max_tag = true

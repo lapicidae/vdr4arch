@@ -1,0 +1,4 @@
+[vdradmin-am]
+source = "github"
+github = "vdr-projects/vdradmin-am"
+use_max_tag = true

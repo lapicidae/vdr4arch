@@ -1,0 +1,3 @@
+[plugins_vdr-autostart]
+source = "git"
+git = "https://git.uli-eckhardt.de/vdr-plugin-autostart.git"

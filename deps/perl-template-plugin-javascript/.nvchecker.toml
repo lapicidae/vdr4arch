@@ -1,0 +1,3 @@
+[deps_perl-template-plugin-javascript]
+source = "cpan"
+cpan = "Template-Plugin-JavaScript"

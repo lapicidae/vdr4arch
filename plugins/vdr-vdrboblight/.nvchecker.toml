@@ -1,0 +1,4 @@
+[plugins_vdr-vdrboblight]
+source = "github"
+github = "vdr-projects/vdr-plugin-boblight"
+use_max_tag = true

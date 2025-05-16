@@ -1,0 +1,4 @@
+[plugins_vdr-softhdcuvid]
+source = "github"
+github = "jojo61/vdr-plugin-softhdcuvid"
+use_max_tag = true

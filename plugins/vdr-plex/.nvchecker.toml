@@ -1,0 +1,4 @@
+[plugins_vdr-plex]
+source = "github"
+github = "chriszero/vdr-plugin-plex"
+use_max_tag = true

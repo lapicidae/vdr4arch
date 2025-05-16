@@ -1,0 +1,4 @@
+[deps_libnetceiver]
+source = "github"
+github = "vdr-projects/libnetceiver"
+use_max_tag = true

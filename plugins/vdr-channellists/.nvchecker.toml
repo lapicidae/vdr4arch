@@ -1,0 +1,4 @@
+[plugins_vdr-channellists]
+source = "github"
+github = "vdr-projects/vdr-plugin-channellists"
+use_max_tag = true

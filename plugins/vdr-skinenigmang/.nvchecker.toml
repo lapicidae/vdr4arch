@@ -1,0 +1,4 @@
+[plugins_vdr-skinenigmang]
+source = "github"
+github = "vdr-projects/vdr-plugin-skinenigmang"
+use_max_tag = true

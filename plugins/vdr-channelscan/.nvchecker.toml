@@ -1,0 +1,4 @@
+[plugins_vdr-channelscan]
+source = "github"
+github = "ua0lnj/vdr-plugin-channelscan"
+use_max_tag = true

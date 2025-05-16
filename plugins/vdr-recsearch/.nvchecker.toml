@@ -1,0 +1,4 @@
+[plugins_vdr-recsearch]
+source = "github"
+github = "flensrocker/vdr-plugin-recsearch"
+use_max_tag = true

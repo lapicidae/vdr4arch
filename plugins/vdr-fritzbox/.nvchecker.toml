@@ -1,0 +1,22 @@
+[plugins_vdr-fritzbox]
+source = "github"
+github = "jowi24/vdr-fritz"
+use_latest_release = true
+
+[plugins_vdr-fritzbox_libconvpp]
+source = "github"
+github = "jowi24/libconvpp"
+
+[plugins_vdr-fritzbox_libfritzpp]
+source = "github"
+github = "jowi24/libfritzpp"
+use_max_tag = true
+include_regex = 'vdr-fritz-([\d.]+)'
+
+[plugins_vdr-fritzbox_liblogpp]
+source = "github"
+github = "jowi24/liblogpp"
+
+[plugins_vdr-fritzbox_libnetpp]
+source = "github"
+github = "jowi24/libnetpp"

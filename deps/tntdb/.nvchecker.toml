@@ -1,0 +1,4 @@
+[deps_tntdb]
+source = "github"
+github = "maekitalo/tntdb"
+use_max_tag = true

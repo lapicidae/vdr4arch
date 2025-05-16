@@ -1,0 +1,4 @@
+[w_scan_cpp]
+source = "regex"
+url = "https://www.gen2vdr.de/wirbel/w_scan_cpp/index2.html"
+regex = 'w_scan_cpp-([\d.]+)\.tar.bz2'

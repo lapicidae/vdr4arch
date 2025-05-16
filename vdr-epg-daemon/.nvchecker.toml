@@ -1,0 +1,4 @@
+[vdr-epg-daemon]
+source = "github"
+github = "horchi/vdr-epg-daemon"
+use_max_tag = true

@@ -1,0 +1,4 @@
+[naludump]
+source = "regex"
+url = "http://www.udo-richter.de/vdr/naludump.html"
+regex = 'naludump-([\d.]+)\.tgz'

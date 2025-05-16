@@ -1,0 +1,4 @@
+[plugins_vdr-bgprocess]
+source = "github"
+github = "vdr-projects/vdr-plugin-bgprocess"
+use_max_tag = true

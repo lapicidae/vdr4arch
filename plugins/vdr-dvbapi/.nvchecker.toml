@@ -1,0 +1,4 @@
+[plugins_vdr-dvbapi]
+source = "github"
+github = "manio/vdr-plugin-dvbapi"
+use_max_tag = true

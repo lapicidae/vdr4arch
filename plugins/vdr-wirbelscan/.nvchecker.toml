@@ -1,0 +1,4 @@
+[plugins_vdr-wirbelscan]
+source = "github"
+github = "wirbel-at-vdr-portal/wirbelscan-dev"
+use_max_tag = true

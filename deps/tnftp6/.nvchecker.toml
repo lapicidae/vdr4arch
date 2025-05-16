@@ -1,0 +1,4 @@
+[deps_tnftp6]
+source = "regex"
+url = "https://ftp.netbsd.org/pub/NetBSD/misc/tnftp/"
+regex = 'tnftp-([\d.]+)\.tar.gz'

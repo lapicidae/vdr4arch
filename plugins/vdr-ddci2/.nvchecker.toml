@@ -1,0 +1,4 @@
+[plugins_vdr-ddci2]
+source = "github"
+github = "jasmin-j/vdr-plugin-ddci2"
+use_max_tag = true

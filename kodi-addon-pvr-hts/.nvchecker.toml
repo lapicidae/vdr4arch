@@ -1,0 +1,4 @@
+[kodi-addon-pvr-hts]
+source = "github"
+github = "kodi-pvr/pvr.hts"
+use_latest_release = true

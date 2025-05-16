@@ -1,0 +1,4 @@
+[plugins_vdr-sleeptimer]
+source = "github"
+github = "vdr-projects/vdr-plugin-sleeptimer"
+use_max_tag = true

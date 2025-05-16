@@ -1,0 +1,5 @@
+[deps_cxxtools]
+source = "github"
+github = "maekitalo/cxxtools"
+#use_latest_tag = true
+use_max_tag = true

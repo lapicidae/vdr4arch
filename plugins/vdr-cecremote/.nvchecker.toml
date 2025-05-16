@@ -1,0 +1,3 @@
+[plugins_vdr-cecremote]
+source = "git"
+git = "https://git.uli-eckhardt.de/vdr-plugin-cecremote.git"

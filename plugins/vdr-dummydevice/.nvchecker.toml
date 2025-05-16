@@ -1,0 +1,4 @@
+[plugins_vdr-dummydevice]
+source = "regex"
+url = "https://phivdr.dyndns.org/vdr/vdr-dummydevice/"
+regex = 'vdr-dummydevice-([\d.]+)\.tgz'

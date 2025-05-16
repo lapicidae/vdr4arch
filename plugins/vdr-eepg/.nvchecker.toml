@@ -1,0 +1,4 @@
+[plugins_vdr-eepg]
+source = "github"
+github = "vdr-projects/vdr-plugin-eepg"
+use_max_tag = true

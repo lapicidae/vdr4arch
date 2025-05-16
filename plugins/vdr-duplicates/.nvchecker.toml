@@ -1,0 +1,4 @@
+[plugins_vdr-duplicates]
+source = "github"
+github = "vdr-projects/vdr-plugin-duplicates"
+use_max_tag = true

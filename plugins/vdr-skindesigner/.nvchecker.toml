@@ -1,0 +1,4 @@
+[plugins_vdr-skindesigner]
+source = "gitlab"
+gitlab = "kamel5/skindesigner"
+use_max_tag = true

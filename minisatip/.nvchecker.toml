@@ -1,0 +1,4 @@
+[minisatip]
+source = "github"
+github = "catalinii/minisatip"
+use_max_tag = true

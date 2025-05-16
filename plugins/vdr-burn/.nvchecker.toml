@@ -1,0 +1,4 @@
+[plugins_vdr-burn]
+source = "github"
+github = "FireFlyVDR/vdr-plugin-burn"
+use_max_tag = true

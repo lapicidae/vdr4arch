@@ -1,0 +1,5 @@
+[plugins_vdr-vdrmanager]
+source = "github"
+github = "vdr-projects/vdr-plugin-vdrmanager"
+# requires a github token
+use_latest_tag = true

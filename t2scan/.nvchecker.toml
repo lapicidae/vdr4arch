@@ -1,0 +1,4 @@
+[t2scan]
+source = "github"
+github = "mighty-p/t2scan"
+use_latest_release = true

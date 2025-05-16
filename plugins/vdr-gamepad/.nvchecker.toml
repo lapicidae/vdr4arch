@@ -1,0 +1,4 @@
+[plugins_vdr-gamepad]
+source = "github"
+github = "vdr-projects/vdr-plugin-gamepad"
+use_max_tag = true

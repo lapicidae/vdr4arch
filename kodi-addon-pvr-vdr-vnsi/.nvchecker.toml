@@ -1,0 +1,4 @@
+[kodi-addon-pvr-vdr-vnsi]
+source = "github"
+github = "kodi-pvr/pvr.vdr.vnsi"
+use_latest_release = true

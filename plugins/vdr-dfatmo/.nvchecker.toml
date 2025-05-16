@@ -1,0 +1,4 @@
+[plugins_vdr-dfatmo]
+source = "github"
+github = "durchflieger/dfatmo"
+use_max_tag = true

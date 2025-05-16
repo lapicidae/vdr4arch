@@ -1,0 +1,4 @@
+[plugins_vdr-cinebars]
+source = "github"
+github = "vdr-projects/vdr-plugin-cinebars"
+use_max_tag = true

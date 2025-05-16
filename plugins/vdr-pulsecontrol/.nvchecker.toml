@@ -1,0 +1,4 @@
+[plugins_vdr-pulsecontrol]
+source = "github"
+github = "flensrocker/vdr-plugin-pulsecontrol"
+use_max_tag = true

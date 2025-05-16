@@ -1,0 +1,4 @@
+[plugins_vdr-devstatus]
+source = "gitlab"
+gitlab = "kamel5/devstatus"
+use_max_tag = true

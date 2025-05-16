@@ -1,0 +1,6 @@
+[deps_lxdvdrip]
+#source = "mercurial"
+#mercurial = "http://hg.code.sf.net/p/lxdvdrip/code"
+source = "regex"
+url = "https://sourceforge.net/projects/lxdvdrip/files/"
+regex = 'lxdvdrip-(\d+\.\d+)\.tgz'

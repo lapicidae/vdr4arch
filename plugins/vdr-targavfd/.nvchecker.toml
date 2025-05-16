@@ -1,0 +1,4 @@
+[plugins_vdr-targavfd]
+source = "github"
+github = "vdr-projects/vdr-plugin-targavfd"
+use_max_tag = true

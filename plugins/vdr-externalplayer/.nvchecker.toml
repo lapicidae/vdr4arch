@@ -1,0 +1,3 @@
+[plugins_vdr-externalplayer]
+source = "git"
+git = "https://git.uli-eckhardt.de/vdr-plugin-externalplayer.git"

@@ -1,0 +1,4 @@
+[plugins_vdr-peer]
+source = "regex"
+url = "http://vdr.schmirler.de"
+regex = 'vdr-peer-([\d.]+)\.tgz'

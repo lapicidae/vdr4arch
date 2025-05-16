@@ -1,0 +1,4 @@
+[plugins_vdr-svdrpservice]
+source = "github"
+github = "vdr-projects/vdr-plugin-svdrpservice"
+use_max_tag = true

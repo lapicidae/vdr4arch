@@ -1,0 +1,4 @@
+[plugins_vdr-epgsync]
+source = "github"
+github = "vdr-projects/vdr-plugin-epgsync"
+use_max_tag = true

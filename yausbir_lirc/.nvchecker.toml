@@ -1,0 +1,3 @@
+[yausbir_lirc]
+source = "github"
+github = "M-Reimer/yausbir_lirc"

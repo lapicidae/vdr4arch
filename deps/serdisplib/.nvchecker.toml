@@ -1,0 +1,4 @@
+[deps_serdisplib]
+source = "regex"
+url = "https://sourceforge.net/projects/serdisplib/files/serdisplib/"
+regex = 'serdisplib-(\d+\.\d+)\.tar\.gz'

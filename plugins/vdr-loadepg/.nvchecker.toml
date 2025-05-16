@@ -1,0 +1,4 @@
+[plugins_vdr-loadepg]
+source = "regex"
+url = "http://lukkinosat.altervista.org"
+regex = 'vdr-loadepg-([\d.]+)\.tgz'

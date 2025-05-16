@@ -1,0 +1,4 @@
+[plugins_vdr-tvguide]
+source = "gitlab"
+gitlab = "kamel5/tvguide"
+use_max_tag = true

@@ -1,0 +1,4 @@
+[text2skin-skins_anthra-1920-fs]
+source = "regex"
+url = "http://www.anthra.de/anthra-skins/"
+regex = 'anthra_1920_FS-([\d.]+)\.tar.xz'

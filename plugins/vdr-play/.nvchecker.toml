@@ -1,0 +1,3 @@
+[plugins_vdr-play]
+source = "github"
+github = "vdr-projects/vdr-plugin-play"

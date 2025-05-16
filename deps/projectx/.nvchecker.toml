@@ -1,0 +1,4 @@
+[deps_projectx]
+source = "regex"
+url = "https://sourceforge.net/projects/project-x/files/project-x"
+regex = 'ProjectX_([\d.]+)\.'

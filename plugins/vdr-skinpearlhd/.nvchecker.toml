@@ -1,0 +1,4 @@
+[plugins_vdr-skinpearlhd]
+source = "github"
+github = "vdr-projects/vdr-plugin-skinpearlhd"
+use_max_tag = true

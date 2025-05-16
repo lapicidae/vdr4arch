@@ -1,0 +1,4 @@
+[deps_boblight]
+source = "github"
+github = "vdr-projects/boblight"
+use_max_tag = true

@@ -1,0 +1,3 @@
+[plugins_vdr-cdplayer]
+source = "git"
+git = "https://git.uli-eckhardt.de/vdr-plugin-cdplayer.git"

@@ -1,0 +1,4 @@
+[plugins_vdr-filebrowser]
+source = "github"
+github = "vdr-projects/vdr-plugin-filebrowser"
+use_max_tag = true

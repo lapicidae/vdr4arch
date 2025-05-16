@@ -1,0 +1,4 @@
+[plugins_vdr-mp3]
+source = "github"
+github = "vdr-projects/vdr-plugin-mp3"
+use_max_tag = true

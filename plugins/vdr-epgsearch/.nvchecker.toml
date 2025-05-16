@@ -1,0 +1,4 @@
+[plugins_vdr-epgsearch]
+source = "github"
+github = "vdr-projects/vdr-plugin-epgsearch"
+use_max_tag = true

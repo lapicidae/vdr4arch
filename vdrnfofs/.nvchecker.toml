@@ -1,0 +1,4 @@
+[vdrnfofs]
+source = "github"
+github = "M-Reimer/vdrnfofs"
+use_max_tag = true

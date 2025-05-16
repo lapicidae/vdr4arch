@@ -1,0 +1,4 @@
+[plugins_vdr-noepg]
+source = "github"
+github = "flensrocker/vdr-plugin-noepg"
+use_max_tag = true

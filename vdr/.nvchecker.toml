@@ -1,0 +1,3 @@
+[vdr]
+source = "git"
+git = "http://git.tvdr.de/vdr.git"

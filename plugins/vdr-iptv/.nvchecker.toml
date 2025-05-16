@@ -1,0 +1,4 @@
+[plugins_vdr-iptv]
+source = "github"
+github = "rofafor/vdr-plugin-iptv"
+use_max_tag = true

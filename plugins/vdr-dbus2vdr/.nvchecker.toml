@@ -1,0 +1,4 @@
+[plugins_vdr-dbus2vdr]
+source = "github"
+github = "flensrocker/vdr-plugin-dbus2vdr"
+use_max_tag = true

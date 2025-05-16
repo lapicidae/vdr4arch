@@ -1,0 +1,4 @@
+[w_scan2]
+source = "github"
+github = "stefantalpalaru/w_scan2"
+use_latest_release = true

@@ -1,0 +1,4 @@
+[plugins_vdr-tvscraper]
+source = "github"
+github = "MarkusEh/vdr-plugin-tvscraper"
+use_max_tag = true

@@ -1,0 +1,4 @@
+[plugins_vdr-remote]
+source = "regex"
+url = "http://www.escape-edv.de/endriss/vdr/"
+regex = 'vdr-remote-([\d.]+)\.tgz'

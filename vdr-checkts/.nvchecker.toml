@@ -1,0 +1,4 @@
+[vdr-checkts]
+source = "github"
+github = "vdr-projects/vdr-checkts"
+use_max_tag = true

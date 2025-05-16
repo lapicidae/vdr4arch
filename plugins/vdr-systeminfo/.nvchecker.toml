@@ -1,0 +1,4 @@
+[plugins_vdr-systeminfo]
+source = "github"
+github = "FireFlyVDR/vdr-plugin-systeminfo"
+use_max_tag = true

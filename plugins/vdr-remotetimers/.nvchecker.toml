@@ -1,0 +1,4 @@
+[plugins_vdr-remotetimers]
+source = "regex"
+url = "http://vdr.schmirler.de"
+regex = 'vdr-remotetimers-([\d.]+)\.tgz'

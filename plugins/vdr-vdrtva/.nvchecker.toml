@@ -1,0 +1,4 @@
+[plugins_vdr-vdrtva]
+source = "github"
+github = "vdr-projects/vdr-plugin-vdrtva"
+use_max_tag = true

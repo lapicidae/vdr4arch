@@ -1,0 +1,4 @@
+[fonts_ttf-sourcesanspro]
+source = "github"
+github = "googlefonts/opensans"
+path = "fonts/ttf"

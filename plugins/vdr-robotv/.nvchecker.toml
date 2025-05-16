@@ -1,0 +1,4 @@
+[plugins_vdr-robotv]
+source = "github"
+github = "pipelka/vdr-plugin-robotv"
+use_max_tag = true

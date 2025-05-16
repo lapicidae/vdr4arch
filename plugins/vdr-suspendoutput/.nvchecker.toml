@@ -1,0 +1,4 @@
+[plugins_vdr-suspendoutput]
+source = "regex"
+url = "https://phivdr.dyndns.org/vdr/vdr-suspendoutput/"
+regex = 'vdr-suspendoutput-([\d.]+)\.tgz'

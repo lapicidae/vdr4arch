@@ -1,0 +1,4 @@
+[kodi-addon-graphlcd]
+source = "github"
+github = "M-Reimer/script.service.graphlcd"
+use_max_tag = true

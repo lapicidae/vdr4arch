@@ -1,0 +1,4 @@
+[plugins_vdr-scraper2vdr]
+source = "github"
+github = "horchi/scraper2vdr"
+use_max_tag = true

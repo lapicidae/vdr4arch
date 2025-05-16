@@ -1,0 +1,3 @@
+[plugins_vdr-upnp]
+source = "github"
+github = "vdr-projects/vdr-plugin-upnp"

@@ -1,0 +1,4 @@
+[plugins_vdr-xmltv2vdr]
+source = "github"
+github = "vdr-projects/vdr-plugin-xmltv2vdr"
+use_max_tag = true

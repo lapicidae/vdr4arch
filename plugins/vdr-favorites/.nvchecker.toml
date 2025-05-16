@@ -1,0 +1,4 @@
+[plugins_vdr-favorites]
+source = "github"
+github = "vdr-projects/vdr-plugin-favorites"
+use_max_tag = true

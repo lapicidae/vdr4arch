@@ -1,0 +1,4 @@
+[plugins_vdr-epgborder]
+source = "github"
+github = "M-Reimer/vdr-plugin-epgborder"
+use_max_tag = true

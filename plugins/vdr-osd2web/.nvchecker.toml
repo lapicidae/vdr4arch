@@ -1,0 +1,4 @@
+[plugins_vdr-osd2web]
+source = "github"
+github = "horchi/vdr-plugin-osd2web"
+use_max_tag = true

@@ -1,0 +1,4 @@
+[text2skin-skins_narrowhd]
+source = "github"
+github = "vdr-projects/text2skin-narrowhd"
+use_max_tag = true

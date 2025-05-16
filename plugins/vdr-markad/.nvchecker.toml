@@ -1,0 +1,4 @@
+[plugins_vdr-markad]
+source = "github"
+github = "kfb77/vdr-plugin-markad"
+use_max_tag = true

@@ -1,0 +1,4 @@
+[plugins_vdr-extrecmenung]
+source = "gitlab"
+gitlab = "kamel5/extrecmenung"
+use_max_tag = true

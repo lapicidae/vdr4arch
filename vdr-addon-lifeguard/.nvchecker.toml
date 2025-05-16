@@ -1,0 +1,9 @@
+[vdr-addon-lifeguard]
+# source = "apt"
+# mirror = "https://packages.e-tobi.net/vdr-experimental"
+# suite = "squeeze"
+# repo = "addons"
+# pkg = "vdr-addon-lifeguard"
+source = "regex"
+url = "https://packages.e-tobi.net/vdr-experimental/pool-squeeze/source/addons/"
+regex = 'vdr-addon-lifeguard_([\d.]+)\.tar.gz'

@@ -1,0 +1,4 @@
+[deps_librepfunc]
+source = "github"
+github = "wirbel-at-vdr-portal/librepfunc"
+use_max_tag = true

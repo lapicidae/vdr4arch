@@ -1,0 +1,4 @@
+[plugins_vdr-softhddevice]
+source = "github"
+github = "ua0lnj/vdr-plugin-softhddevice"
+use_max_tag = true

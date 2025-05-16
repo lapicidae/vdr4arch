@@ -1,0 +1,4 @@
+[deps_graphlcd-base]
+source = "github"
+github = "M-Reimer/graphlcd-base"
+use_max_tag = true

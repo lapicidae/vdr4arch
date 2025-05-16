@@ -1,0 +1,4 @@
+[fonts_ttf-teletext2]
+source = "github"
+github = "pbiering/vdr-plugin-osdteletext"
+use_max_tag = true

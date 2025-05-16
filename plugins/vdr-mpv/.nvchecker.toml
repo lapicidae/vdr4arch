@@ -1,0 +1,4 @@
+[plugins_vdr-mpv]
+source = "github"
+github = "ua0lnj/vdr-plugin-mpv"
+use_max_tag = true
