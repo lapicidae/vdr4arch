@@ -1,3 +1,4 @@
+*.code-workspace
 *.fw
 *.log
 *.tar.bz2
