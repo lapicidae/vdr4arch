@@ -1,7 +1,7 @@
 pkgbase = vdr-streamdev
 	pkgdesc = Implementation of the VTP (Video Transfer Protocol)
 	pkgver = 0.6.4
-	pkgrel = 3
+	pkgrel = 4
 	url = https://github.com/vdr-projects/vdr-plugin-streamdev
 	arch = x86_64
 	arch = i686

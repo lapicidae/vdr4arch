@@ -1,7 +1,7 @@
 pkgbase = vdr-osdteletext
 	pkgdesc = Displays teletext pages directly on VDR's OSD
 	pkgver = 2.3.1
-	pkgrel = 7
+	pkgrel = 8
 	url = https://github.com/vdr-projects/vdr-plugin-osdteletext
 	arch = x86_64
 	arch = i686

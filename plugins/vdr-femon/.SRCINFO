@@ -1,7 +1,7 @@
 pkgbase = vdr-femon
 	pkgdesc = DVB Frontend Status Monitor plugin
 	pkgver = 20240910
-	pkgrel = 3
+	pkgrel = 4
 	url = https://github.com/wirbel-at-vdr-portal/vdr-plugin-femon
 	arch = x86_64
 	arch = i686

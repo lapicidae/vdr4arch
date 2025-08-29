@@ -1,7 +1,7 @@
 pkgbase = vdr-remoteosd
 	pkgdesc = Display the menu of a remote VDR as submenu item of your local VDR menu
 	pkgver = 1.0.1
-	pkgrel = 9
+	pkgrel = 10
 	url = https://github.com/vdr-projects/vdr-plugin-remoteosd
 	arch = x86_64
 	arch = i686

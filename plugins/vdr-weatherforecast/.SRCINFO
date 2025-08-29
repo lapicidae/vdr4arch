@@ -1,7 +1,7 @@
 pkgbase = vdr-weatherforecast
 	pkgdesc = provides a weather forecast based on forecast.io data
 	pkgver = 0.2.0
-	pkgrel = 15
+	pkgrel = 16
 	url = https://github.com/vdr-projects/vdr-plugin-weatherforecast
 	arch = x86_64
 	arch = i686

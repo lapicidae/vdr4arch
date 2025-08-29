@@ -1,7 +1,7 @@
 pkgbase = vdr-zaphistory
 	pkgdesc = History of the latest viewed channels
 	pkgver = 0.9.7
-	pkgrel = 8
+	pkgrel = 9
 	url = https://github.com/vdr-projects/vdr-plugin-zaphistory
 	arch = x86_64
 	arch = i686

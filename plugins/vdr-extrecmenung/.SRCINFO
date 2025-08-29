@@ -1,7 +1,7 @@
 pkgbase = vdr-extrecmenung
 	pkgdesc = provides additional functions to VDR's recordings menu
 	pkgver = 2.0.14
-	pkgrel = 1
+	pkgrel = 2
 	url = https://gitlab.com/kamel5/extrecmenung
 	arch = x86_64
 	arch = i686

@@ -1,6 +1,6 @@
 pkgbase = xineliboutput
 	pkgver = 2.3.0
-	pkgrel = 4
+	pkgrel = 5
 	url = https://www.sourceforge.net/projects/xineliboutput
 	arch = x86_64
 	arch = i686

@@ -1,7 +1,7 @@
 pkgbase = vdr-favorites
 	pkgdesc = Implements a favorite channels menu
 	pkgver = 0.0.4
-	pkgrel = 7
+	pkgrel = 8
 	url = https://github.com/vdr-projects/vdr-plugin-favorites
 	arch = x86_64
 	arch = i686

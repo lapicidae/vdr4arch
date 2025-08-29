@@ -1,7 +1,7 @@
 pkgbase = vdr-gamepad
 	pkgdesc = Control VDR via a joystick device.
 	pkgver = 0.0.2
-	pkgrel = 11
+	pkgrel = 12
 	url = https://github.com/vdr-projects/vdr-plugin-gamepad
 	arch = x86_64
 	arch = i686

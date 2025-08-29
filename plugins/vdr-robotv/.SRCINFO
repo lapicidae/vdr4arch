@@ -1,7 +1,7 @@
 pkgbase = vdr-robotv
 	pkgdesc = VDR server plugin for roboTV
 	pkgver = 0.15.0
-	pkgrel = 6
+	pkgrel = 7
 	url = https://github.com/pipelka/vdr-plugin-robotv
 	arch = x86_64
 	arch = i686

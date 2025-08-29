@@ -1,7 +1,7 @@
 pkgbase = vdr-skindesigner
 	pkgdesc = Highly customizable native true color skin for the Video Disc Recorder
 	pkgver = 1.2.25
-	pkgrel = 3
+	pkgrel = 4
 	url = https://gitlab.com/kamel5/skindesigner
 	install = vdr-skindesigner.install
 	arch = x86_64

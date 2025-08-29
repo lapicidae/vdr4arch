@@ -1,7 +1,7 @@
 pkgbase = vdr-cinebars
 	pkgdesc = Overlays cinema-bars over the live picture
 	pkgver = 0.1.0
-	pkgrel = 28
+	pkgrel = 29
 	url = https://github.com/vdr-projects/vdr-plugin-cinebars
 	arch = x86_64
 	arch = i686

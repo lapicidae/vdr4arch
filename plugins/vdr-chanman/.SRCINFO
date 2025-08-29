@@ -1,7 +1,7 @@
 pkgbase = vdr-chanman
 	pkgdesc = Change channel with a multi level choice
 	pkgver = 0.0.13
-	pkgrel = 9
+	pkgrel = 10
 	url = https://github.com/vdr-projects/vdr-plugin-chanman
 	arch = x86_64
 	arch = i686

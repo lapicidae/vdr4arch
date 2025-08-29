@@ -1,7 +1,7 @@
 pkgbase = vdr-channellists
 	pkgdesc = Plugin to manage your Channellists
 	pkgver = 0.0.6
-	pkgrel = 11
+	pkgrel = 12
 	url = https://github.com/vdr-projects/vdr-plugin-channellists
 	arch = x86_64
 	arch = i686

@@ -1,7 +1,7 @@
 pkgbase = vdr-sleeptimer
 	pkgdesc = Shutdown, mute or execute a custom command after a configurable timespan
 	pkgver = 0.8.3
-	pkgrel = 10
+	pkgrel = 11
 	url = https://github.com/vdr-projects/vdr-plugin-sleeptimer
 	arch = x86_64
 	arch = i686

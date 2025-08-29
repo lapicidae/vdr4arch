@@ -1,7 +1,7 @@
 pkgbase = vdr-lcdproc
 	pkgdesc = Output to LCD modules that are supported by LCDproc
 	pkgver = 1.0.0
-	pkgrel = 7
+	pkgrel = 8
 	url = https://github.com/vdr-projects/vdr-plugin-lcdproc
 	arch = x86_64
 	arch = i686

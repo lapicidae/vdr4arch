@@ -1,7 +1,7 @@
 pkgbase = vdr-vdrtva
 	pkgdesc = Automatic 'series record' function. Written for UK Freeview
 	pkgver = 0.3.8
-	pkgrel = 3
+	pkgrel = 4
 	url = https://github.com/vdr-projects/vdr-plugin-vdrtva
 	arch = x86_64
 	arch = i686

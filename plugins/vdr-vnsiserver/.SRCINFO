@@ -1,7 +1,7 @@
 pkgbase = vdr-vnsiserver
 	pkgdesc = VDR plugin to handle Kodi clients
 	pkgver = 1.8.3
-	pkgrel = 7
+	pkgrel = 8
 	epoch = 2
 	url = https://github.com/vdr-projects/vdr-plugin-vnsiserver
 	arch = x86_64

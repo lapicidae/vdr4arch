@@ -1,7 +1,7 @@
 pkgbase = vdr-xmltv2vdr
 	pkgdesc = Add epg info from epg sources into vdr
 	pkgver = 0.2.4
-	pkgrel = 3
+	pkgrel = 4
 	url = https://github.com/vdr-projects/vdr-plugin-xmltv2vdr
 	arch = x86_64
 	arch = i686
