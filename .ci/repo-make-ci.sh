@@ -235,12 +235,31 @@ echo "SRCDEST='/home/build/srcdest'" >> "$CHROOT/etc/makepkg.conf"
 echo "en_US.UTF-8 UTF-8" > "$CHROOT/etc/locale.gen"
 echo "LANG=en_US.UTF-8" > "$CHROOT/etc/locale.conf"
 
+# Initialize pacman keyring
+$CHROOT_ARCH chroot "$CHROOT" /bin/bash -c \
+  "source /etc/profile; \
+  pacman-key --init; \
+  pacman-key --populate $PACMAN_KEYRING"
+
+# Clean unwanted packages from ARM base image
+if [ "$REPO_MAKE_ARCH" = "armv7h" ]; then
+  $CHROOT_ARCH chroot "$CHROOT" /bin/bash -c \
+    "source /etc/profile; \
+    pacman -Rn --noconfirm \
+      linux-armv7 \
+      nano \
+      netctl \
+      openssh \
+      systemd-resolvconf \
+      vi \
+      which; \
+    pacman -Rnsc --noconfirm linux-firmware"
+fi
+
 # Update chroot and create our build user
 # Install/update keyring first so we don't get gpg errors for outdated keys
 $CHROOT_ARCH chroot "$CHROOT" /bin/bash -c \
   "source /etc/profile; \
-  pacman-key --init; \
-  pacman-key --populate $PACMAN_KEYRING; \
   pacman -Sy --noconfirm; \
   pacman -S --noconfirm --needed $PACMAN_KEYRING-keyring; \
   pacman -Su --noconfirm; \
