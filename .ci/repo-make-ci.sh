@@ -64,9 +64,6 @@ REPO_MAKE_SHA1=827371403eee270a3aa2554c1b3bd0bac6601b78
 # Prepare the build environment we were launched in
 #
 
-# Default arch we set our chroot environment to
-CHROOT_ARCH="$REPO_MAKE_ARCH"
-
 # Build some cache paths and create them if they are not there
 SOURCECACHE="$REPO_MAKE_CACHE/sourcedir"
 mkdir -p "$SOURCECACHE"
@@ -237,7 +234,7 @@ echo "LANG=en_US.UTF-8" > "$CHROOT/etc/locale.conf"
 
 # Update chroot and create our build user
 # Install/update keyring first so we don't get gpg errors for outdated keys
-chroot "$CHROOT" /bin/bash -c \
+$CHROOT_ARCH chroot "$CHROOT" /bin/bash -c \
   "source /etc/profile; \
   pacman-key --init; \
   pacman-key --populate $PACMAN_KEYRING; \
@@ -286,13 +283,13 @@ echo "$REPO_MAKE_SHA1  $REPO_MAKE_PKG" > "$CHROOT/root/$REPO_MAKE_PKG.sha1"
 env -C "$CHROOT/root" sha1sum -c "$REPO_MAKE_PKG.sha1"
 
 # Install repo-make into chroot, run build
-chroot "$CHROOT" /bin/bash -c \
+$CHROOT_ARCH chroot "$CHROOT" /bin/bash -c \
   "unset LANG; source /etc/profile; \
   chown -R build /home/build; \
   pacman -U --noconfirm /root/$REPO_MAKE_PKG; \
-  setarch $CHROOT_ARCH repo-make --restore-repo-mtimes -V -C /home/build/pkgbuilds -t /home/build/target"
+  repo-make --restore-repo-mtimes -V -C /home/build/pkgbuilds -t /home/build/target"
 
 # Before we exit, cleanup package cache
-chroot "$CHROOT" /bin/bash -c \
+$CHROOT_ARCH chroot "$CHROOT" /bin/bash -c \
   "pacman -S --noconfirm pacman-contrib; \
   paccache -k 1 -r"
