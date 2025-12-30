@@ -7,7 +7,7 @@ pkgrel=3
 _vdrapi=9
 pkgdesc="Acts as client and provides scraped metadata for tvshows and movies from epgd"
 url='https://github.com/horchi/scraper2vdr'
-arch=('x86_64' 'i686' 'arm' 'armv6h' 'armv7h')
+arch=('x86_64' 'i686' 'arm' 'armv6h' 'armv7h' 'aarch64')
 license=('GPL2')
 depends=('graphicsmagick' 'libmariadbclient' "vdr-api=${_vdrapi}")
 makedepends=('imlib2')

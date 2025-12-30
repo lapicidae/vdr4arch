@@ -7,6 +7,7 @@ pkgbase = xineliboutput
 	arch = arm
 	arch = armv6h
 	arch = armv7h
+	arch = aarch64
 	license = GPL-2.0-or-later
 	makedepends = avahi
 	makedepends = dbus-glib

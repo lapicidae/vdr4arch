@@ -8,6 +8,7 @@ pkgbase = vdr-skinpearlhd
 	arch = arm
 	arch = armv6h
 	arch = armv7h
+	arch = aarch64
 	license = GPL2
 	depends = graphicsmagick
 	depends = vdr-api=2.4.1

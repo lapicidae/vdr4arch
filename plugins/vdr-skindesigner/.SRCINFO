@@ -9,6 +9,7 @@ pkgbase = vdr-skindesigner
 	arch = arm
 	arch = armv6h
 	arch = armv7h
+	arch = aarch64
 	license = GPL-2.0-or-later
 	depends = git
 	depends = librsvg

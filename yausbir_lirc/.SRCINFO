@@ -9,6 +9,7 @@ pkgbase = yausbir_lirc
 	arch = arm
 	arch = armv6h
 	arch = armv7h
+	arch = aarch64
 	license = GPL2
 	depends = gcc-libs
 	depends = libusb-compat
