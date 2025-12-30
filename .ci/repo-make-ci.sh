@@ -153,16 +153,13 @@ if [ "$REPO_MAKE_ARCH" = "x86_64" ]; then
   echo "Server = $REPO_MAKE_ARCH_MIRROR/\$repo/os/\$arch" >> "$CHROOT/etc/pacman.d/mirrorlist"
 
 # ARM 32 bit architecture
-elif [ "$REPO_MAKE_ARCH" = "armv6h" -o "$REPO_MAKE_ARCH" = "armv7h" ]; then
+elif [ "$REPO_MAKE_ARCH" = "armv7h" ]; then
   # Get sure the chroot environment runs in a 32 bit environment matching the
   # target ARM architecture
   CHROOT_ARCH=linux32
 
   # Name of the image for this architecture
-  IMAGENAME="ArchLinuxARM-rpi-latest.tar.gz"
-  if [ "$REPO_MAKE_ARCH" = "armv7h" ]; then
-    IMAGENAME="ArchLinuxARM-rpi-2-latest.tar.gz"
-  fi
+  IMAGENAME="ArchLinuxARM-armv7-latest.tar.gz"
 
   # Name of the pacman-key keyring for this architecture
   PACMAN_KEYRING="archlinuxarm"
