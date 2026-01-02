@@ -144,7 +144,7 @@ if [ "$REPO_MAKE_ARCH" = "x86_64" ]; then
 
   # Extract image to chroot path
   echo "REPO-MAKE-CI: Extracting Arch Linux bootstrap image"
-  tar -x --strip 1 -f "$IMAGECACHE/$IMAGENAME" -C "$CHROOT"
+  bsdtar -x --strip-components 1 -f "$IMAGECACHE/$IMAGENAME" -C "$CHROOT"
 
   # Configure mirror
   echo "Server = $REPO_MAKE_ARCH_MIRROR/\$repo/os/\$arch" >> "$CHROOT/etc/pacman.d/mirrorlist"
@@ -178,7 +178,7 @@ elif [ "$REPO_MAKE_ARCH" = "armv7h" ]; then
 
   # Extract image to chroot path
   echo "REPO-MAKE-CI: Extracting Arch Linux bootstrap image"
-  tar -x -f "$IMAGECACHE/$OURIMAGENAME" -C "$CHROOT"
+  bsdtar -x -f "$IMAGECACHE/$OURIMAGENAME" -C "$CHROOT"
 
   # ARMv7 doesn't support -mno-omit-leaf-frame-pointer flag
   sed -e 's/ -mno-omit-leaf-frame-pointer//g' -i "$CHROOT/etc/makepkg.conf"
