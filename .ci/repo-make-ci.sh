@@ -180,6 +180,9 @@ elif [ "$REPO_MAKE_ARCH" = "armv7h" ]; then
   echo "REPO-MAKE-CI: Extracting Arch Linux bootstrap image"
   tar -x -f "$IMAGECACHE/$OURIMAGENAME" -C "$CHROOT"
 
+  # ARMv7 doesn't support -mno-omit-leaf-frame-pointer flag
+  sed -e 's/ -mno-omit-leaf-frame-pointer//g' -i "$CHROOT/etc/makepkg.conf"
+
   # If the host has qemu-arm-static installed, then copy it over to our chroot.
   if [ -x "/usr/bin/qemu-arm-static" ]; then
     echo "REPO-MAKE-CI: Copying qemu-arm-static into our chroot"
