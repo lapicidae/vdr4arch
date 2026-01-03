@@ -4,13 +4,14 @@
 _srcname=anthra_1024
 pkgname=text2skin-$(echo ${_srcname//_/-} | tr '[:upper:]' '[:lower:]')
 pkgver=0.3.4
-pkgrel=2
+pkgrel=3
 pkgdesc="Dark, anthracite skins for Klaus Schmidingers VDR"
 arch=('any')
 url="http://www.anthra.de/"
 depends=('vdr-text2skin')
 groups=('text2skin-anthra')
 license=('GPL2')
+install="${pkgname}.install"
 source=("http://www.anthra.de/anthra-skins/$_srcname-$pkgver.tar.xz")
 md5sums=('091bb25b0769b9173efb31d2ee46c984')
 
