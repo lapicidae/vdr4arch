@@ -10,10 +10,10 @@ pkgbase = kodi-setwakeup
 	arch = armv7h
 	arch = aarch64
 	license = GPL3
-	depends = kodi-standalone-service
 	source = kodi-setwakeup.c
 	source = setwakeup.sh
 	md5sums = 45e179324952f5aba8980e8dad7e91be
 	md5sums = 333278349fb355c01323f42b8105f333
+	depends_x86_64 = kodi-standalone-service
 
 pkgname = kodi-setwakeup
