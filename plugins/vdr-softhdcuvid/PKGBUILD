@@ -47,6 +47,7 @@ package_vdr-softhdcuvid() {
            'libavcodec.so' 'libavutil.so' 'libplacebo.so' 'libswresample.so')
   optdepends=('vdr-xorg: Recommended way to start X.org server together with VDR')
   backup=("etc/vdr/conf.avail/50-$_plugname.conf")
+  arch=('x86_64')
 
   cd "${srcdir}/vdr-plugin-${_plugname}-${pkgver}"
   install -Dm755 "lib${pkgname}.so" "${pkgdir}$(pkg-config --variable=libdir vdr)/lib${pkgname}.so.$(pkg-config --variable=apiversion vdr)"
@@ -60,6 +61,7 @@ package_vdr-softhdvaapi() {
            'libavcodec.so' 'libavfilter.so' 'libavutil.so' 'libplacebo.so' 'libswresample.so')
   optdepends=('vdr-xorg: Recommended way to start X.org server together with VDR')
   backup=("etc/vdr/conf.avail/50-softhdvaapi.conf")
+  arch=('x86_64')
 
   cd "${srcdir}/vdr-plugin-${_plugname}-${pkgver}"
   install -Dm755 "lib${pkgname}.so" "${pkgdir}$(pkg-config --variable=libdir vdr)/lib${pkgname}.so.$(pkg-config --variable=apiversion vdr)"
@@ -74,6 +76,7 @@ package_vdr-softhddrm() {
            'libavcodec.so' 'libavfilter.so' 'libavutil.so' 'libswresample.so')
   conflicts=('vdr-xorg')
   backup=("etc/vdr/conf.avail/50-softhddrm.conf")
+  arch=('x86_64' 'aarch64')
 
   cd "${srcdir}/vdr-plugin-${_plugname}-${pkgver}"
   install -Dm755 "lib${pkgname}.so" "${pkgdir}$(pkg-config --variable=libdir vdr)/lib${pkgname}.so.$(pkg-config --variable=apiversion vdr)"

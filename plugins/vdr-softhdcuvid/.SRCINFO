@@ -26,6 +26,8 @@ pkgbase = vdr-softhdcuvid
 	makedepends_x86_64 = nvidia>=410.48
 
 pkgname = vdr-softhddrm
+	arch = x86_64
+	arch = aarch64
 	depends = freeglut
 	depends = glew
 	depends = mesa
@@ -41,6 +43,7 @@ pkgname = vdr-softhddrm
 	backup = etc/vdr/conf.avail/50-softhddrm.conf
 
 pkgname = vdr-softhdcuvid
+	arch = x86_64
 	depends = freeglut
 	depends = glew
 	depends = mesa
@@ -57,6 +60,7 @@ pkgname = vdr-softhdcuvid
 	backup = etc/vdr/conf.avail/50-softhdcuvid.conf
 
 pkgname = vdr-softhdvaapi
+	arch = x86_64
 	depends = freeglut
 	depends = glew
 	depends = mesa
