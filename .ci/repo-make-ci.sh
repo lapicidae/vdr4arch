@@ -192,6 +192,42 @@ elif [ "$REPO_MAKE_ARCH" = "armv7h" ]; then
   # Arch Linux ARM has a symlink as /etc/resolv.conf. Remove it.
   rm "$CHROOT/etc/resolv.conf"
 
+# ARM 64 bit architecture
+elif [ "$REPO_MAKE_ARCH" = "aarch64" ]; then
+  # Name of the image for this architecture
+  IMAGENAME="ArchLinuxARM-aarch64-latest.tar.gz"
+
+  # Name of the pacman-key keyring for this architecture
+  PACMAN_KEYRING="archlinuxarm"
+
+  # Arch Linux ARM does not have any secure way to get checksums from, so we
+  # have to use GPG for verification
+  OURIMAGENAME="$IMAGENAME-$(date +%Y-%m).tar.gz"
+  if [ ! -s "$IMAGECACHE/$OURIMAGENAME" ]; then
+    rm -f "$IMAGECACHE/$IMAGENAME-"*
+    echo "REPO-MAKE-CI: Downloading new Arch Linux image: $OURIMAGENAME"
+    wget -q -nc "http://os.archlinuxarm.org/os/$IMAGENAME" -O "$TMPDIR/$OURIMAGENAME"
+    wget -q -nc "http://os.archlinuxarm.org/os/$IMAGENAME.sig" -O "$TMPDIR/$OURIMAGENAME.sig"
+    gpg --keyserver keys.gnupg.net --recv-key 68B3537F39A313B3E574D06777193F152BDBE6A6
+    gpg --verify "$TMPDIR/$OURIMAGENAME.sig"
+    mv "$TMPDIR/$OURIMAGENAME" "$IMAGECACHE"
+  else
+    echo "REPO-MAKE-CI: Image $OURIMAGENAME available in image cache!"
+  fi
+
+  # Extract image to chroot path
+  echo "REPO-MAKE-CI: Extracting Arch Linux bootstrap image"
+  bsdtar -x -f "$IMAGECACHE/$OURIMAGENAME" -C "$CHROOT"
+
+  # If the host has qemu-arm-static installed, then copy it over to our chroot.
+  if [ -x "/usr/bin/qemu-arm-static" ]; then
+    echo "REPO-MAKE-CI: Copying qemu-arm-static into our chroot"
+    cp -a "/usr/bin/qemu-arm-static" "$CHROOT/usr/bin"
+  fi
+
+  # Arch Linux ARM has a symlink as /etc/resolv.conf. Remove it.
+  rm "$CHROOT/etc/resolv.conf"
+
 # Unsupported architectures
 else
   echo "REPO-MAKE-CI: Unsupported architecture: $REPO_MAKE_ARCH"
@@ -247,6 +283,19 @@ if [ "$REPO_MAKE_ARCH" = "armv7h" ]; then
     "source /etc/profile; \
     pacman -Rn --noconfirm \
       linux-armv7 \
+      nano \
+      netctl \
+      openssh \
+      systemd-resolvconf \
+      vi \
+      which; \
+    pacman -Rnsc --noconfirm linux-firmware"
+
+elif [ "$REPO_MAKE_ARCH" = "aarch64" ]; then
+  $CHROOT_ARCH chroot "$CHROOT" /bin/bash -c \
+    "source /etc/profile; \
+    pacman -Rn --noconfirm \
+      linux-aarch64 \
       nano \
       netctl \
       openssh \
