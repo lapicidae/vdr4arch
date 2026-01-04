@@ -9,6 +9,7 @@ url="https://github.com/jojo61/vdr-plugin-softhdcuvid"
 arch=('x86_64' 'aarch64')
 license=('AGPL3')
 makedepends=('ffmpeg' 'freeglut' 'glew' 'mesa' "vdr-api=${_vdrapi}" 'xcb-util-wm' 'xorg-server' 'libplacebo>=3.120.0' 'glm' 'glu' 'vulkan-headers' 'ffnvcodec-headers' 'freetype2')
+makedepends_x86_64=( 'nvidia>=410.48' )
 _plugname=${pkgbase//vdr-/}
 source=("${pkgbase}-${pkgver}.tar.gz::${url}/archive/refs/tags/V${pkgver}.tar.gz"
         "50-$_plugname.conf")
@@ -17,7 +18,6 @@ sha256sums=('40f1678276f0e4f339a4c36cb6ba4cb8611d1c006b16d764e3ad7eca8fc8d834'
 
 if [ "$CARCH" == "x86_64" ] ; then
   pkgname+=(vdr-softhdcuvid vdr-softhdvaapi)
-  makedepends+=( 'nvidia>=410.48' )
 fi
 
 prepare() {
