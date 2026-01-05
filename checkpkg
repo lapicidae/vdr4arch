@@ -76,7 +76,7 @@ echo "$PACKAGES" | while read PKG; do
   #
   if grep -q '^var/lib/vdr/themes/' <<<"$FILELIST" &&
       ! grep -q '^var/lib/vdr/themes/.*-default\.theme' <<<"$FILELIST" &&
-      ! grep -q 'rm -f var/lib/vdr/themes/.*-default\.theme' <<<"$INSTALL"; then
+      ! grep -q 'rm -f /var/lib/vdr/themes/.*-default\.theme' <<<"$INSTALL"; then
     echo "rm for default.theme missing in $PKG" >&2
     exit 1
   fi
