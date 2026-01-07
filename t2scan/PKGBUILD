@@ -18,6 +18,7 @@ sha256sums=('44e4b738a2beed8eb964be3d90b6da48c2d1c672d81fd8db8bbda87bcc433fcb'
 prepare() {
   cd "${srcdir}/${pkgname}-${pkgver}"
   patch -p1 -i "${srcdir}/$pkgname-build-fixes.patch"
+  autoreconf -fi
 }
 
 build() {
