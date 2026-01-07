@@ -11,7 +11,7 @@ pkgrel=1
 _vdrapi=9
 pkgdesc="Connects to the Fritz!Box to inform you about incoming and outgoing calls"
 url="https://github.com/jowi24/vdr-fritz"
-arch=('x86_64' 'i686' 'arm' 'armv6h' 'armv7h')
+arch=('x86_64' 'i686' 'arm' 'armv6h' 'armv7h' 'aarch64')
 license=('GPL2')
 depends=('boost-libs>=1.57.0' 'libgcrypt' "vdr-api=${_vdrapi}")
 makedepends=('boost')

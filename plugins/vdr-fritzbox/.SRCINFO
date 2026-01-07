@@ -8,6 +8,7 @@ pkgbase = vdr-fritzbox
 	arch = arm
 	arch = armv6h
 	arch = armv7h
+	arch = aarch64
 	license = GPL2
 	makedepends = boost
 	depends = boost-libs>=1.57.0

@@ -9,7 +9,7 @@ epoch=1
 _vdrapi=9
 pkgdesc="Plugin to mark advertisemets in recordings and optionally auto-cut"
 url="https://github.com/kfb77/vdr-plugin-markad"
-arch=('x86_64' 'i686' 'arm' 'armv6h' 'armv7h')
+arch=('x86_64' 'i686' 'arm' 'armv6h' 'armv7h' 'aarch64')
 license=('GPL-2.0-or-later')
 depends=("vdr-api=${_vdrapi}" 'libavcodec.so' 'libavfilter.so' 'libavformat.so' 'libavutil.so' 'libswresample.so')
 _plugname=${pkgname//vdr-/}

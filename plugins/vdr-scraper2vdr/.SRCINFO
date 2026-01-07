@@ -8,6 +8,7 @@ pkgbase = vdr-scraper2vdr
 	arch = arm
 	arch = armv6h
 	arch = armv7h
+	arch = aarch64
 	license = GPL2
 	makedepends = imlib2
 	depends = graphicsmagick

@@ -8,7 +8,7 @@ _vdrapi=9
 epoch=1
 pkgdesc="skin based on the Enigma text2skin addon"
 url="https://github.com/vdr-projects/vdr-plugin-skinenigmang"
-arch=('x86_64' 'i686' 'arm' 'armv6h' 'armv7h')
+arch=('x86_64' 'i686' 'arm' 'armv6h' 'armv7h' 'aarch64')
 license=('GPL2')
 depends=('freetype2' 'gcc-libs' "vdr-api=${_vdrapi}")
 _plugname=${pkgname//vdr-/}

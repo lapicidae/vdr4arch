@@ -48,6 +48,7 @@ prepare() {
 build() {
   cd "${srcdir}/${pkgname}-${pkgver}"
 
+  export CFLAGS="$CFLAGS -std=gnu11"
   ./configure --prefix=/usr --python=python3 \
         --disable-ffmpeg_static \
         --disable-libx264_static \

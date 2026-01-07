@@ -1,0 +1,7 @@
+post_remove() {
+	rm -f /var/lib/vdr/themes/anthra_1920_FSE-default.theme
+}
+
+pre_upgrade() {
+	post_remove
+}
