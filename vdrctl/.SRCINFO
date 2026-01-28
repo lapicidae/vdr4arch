@@ -12,4 +12,3 @@ pkgbase = vdrctl
 	sha256sums = f02ec49db633267b88f097d646b3487dbe9184fc1c25392af5738c8a9d7ed75c
 
 pkgname = vdrctl
-

@@ -8,6 +8,7 @@ pkgbase = vdr-epgborder
 	arch = arm
 	arch = armv6h
 	arch = armv7h
+	arch = aarch64
 	license = GPL3
 	depends = vdr-api=9
 	depends = gcc-libs

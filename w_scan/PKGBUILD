@@ -6,7 +6,7 @@ pkgver=20210218
 pkgrel=1
 pkgdesc="Small channel scan tool for vdr"
 url="https://www.gen2vdr.de/wirbel/w_scan/index2.html"
-arch=('x86_64' 'i686' 'arm' 'armv6h' 'armv7h')
+arch=('x86_64' 'i686' 'arm' 'armv6h' 'armv7h' 'aarch64')
 license=('GPL2')
 depends=('gcc-libs')
 #gcc-libs is somehow needed on arm architecture
@@ -15,6 +15,7 @@ md5sums=('e80cb986c1830e0ed9b8fe8f6c89809d')
 
 build() {
   cd "${srcdir}/${pkgname}-${pkgver}"
+  export CFLAGS="$CFLAGS -std=gnu11"
   ./configure --prefix=/usr
   make
 }

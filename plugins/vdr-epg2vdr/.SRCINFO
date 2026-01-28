@@ -8,6 +8,7 @@ pkgbase = vdr-epg2vdr
 	arch = arm
 	arch = armv6h
 	arch = armv7h
+	arch = aarch64
 	license = GPL-2.0-or-later
 	depends = jansson
 	depends = libmariadbclient

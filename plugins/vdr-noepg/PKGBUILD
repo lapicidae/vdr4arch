@@ -8,7 +8,7 @@ _vdrapi=9
 pkgrel=15
 pkgdesc="Replace the noepg-patch with the new cEpgHandler of vdr >= 1.7.26"
 url="https://github.com/flensrocker/vdr-plugin-noepg"
-arch=('x86_64' 'i686' 'arm' 'armv6h' 'armv7h')
+arch=('x86_64' 'i686' 'arm' 'armv6h' 'armv7h' 'aarch64')
 license=('GPL2')
 depends=('curl' "vdr-api=${_vdrapi}")
 makedepends=('git')

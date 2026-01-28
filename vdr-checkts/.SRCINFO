@@ -8,6 +8,7 @@ pkgbase = vdr-checkts
 	arch = arm
 	arch = armv6h
 	arch = armv7h
+	arch = aarch64
 	license = BSD
 	depends = gcc-libs
 	depends = glibc

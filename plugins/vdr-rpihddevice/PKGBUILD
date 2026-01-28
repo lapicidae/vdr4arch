@@ -7,7 +7,7 @@ _vdrapi=9
 pkgrel=8
 pkgdesc="Output device for Raspberry Pi"
 url="https://github.com/reufer/rpihddevice"
-arch=('armv6h' 'armv7h')
+arch=('armv6h' 'armv7h' 'aarch64')
 license=('GPL2')
 depends=('ffmpeg' 'mesa' 'raspberrypi-firmware-tools' "vdr-api=${_vdrapi}")
 _plugname=${pkgname//vdr-/}

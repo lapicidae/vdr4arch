@@ -5,6 +5,7 @@ pkgbase = vdr-rpihddevice
 	url = https://github.com/reufer/rpihddevice
 	arch = armv6h
 	arch = armv7h
+	arch = aarch64
 	license = GPL2
 	depends = ffmpeg
 	depends = mesa

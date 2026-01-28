@@ -22,6 +22,8 @@ import re
 # Packages to check
 PACKAGES = [
     ["irctl", "github"],
+    ["kodi-addon-graphlcd", "github"],
+    ["kodi-standalone-service", "github"],
     ["minisatip", "github"],
     ["t2scan", "github"],
     ["vdradmin-am", "github"],
@@ -76,6 +78,7 @@ PACKAGES = [
     ["plugins/vdr-restfulapi", "github"],
     ["plugins/vdr-rpihddevice", "github"],
     ["plugins/vdr-rssreader", "github"],
+    ["plugins/vdr-satip", "github"],
     ["plugins/vdr-scraper2vdr", "github"],
     ["plugins/vdr-skindesigner", "gitlab"],
     ["plugins/vdr-skinenigmang", "github"],
