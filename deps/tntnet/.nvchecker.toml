@@ -1,4 +1,4 @@
 [deps_tntnet]
-source = "github"
-github = "maekitalo/tntnet"
-use_max_tag = true
+source = "regex"
+url = "https://raw.githubusercontent.com/maekitalo/tntnet/master/configure.ac"
+regex = 'AC_INIT\(\s*\[?tntnet\]?,\s*\[?([0-9.]+)\]?'

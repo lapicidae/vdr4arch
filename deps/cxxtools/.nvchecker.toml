@@ -1,5 +1,4 @@
 [deps_cxxtools]
-source = "github"
-github = "maekitalo/cxxtools"
-#use_latest_tag = true
-use_max_tag = true
+source = "regex"
+url = "https://raw.githubusercontent.com/maekitalo/cxxtools/master/configure.ac"
+regex = 'AC_INIT\(\s*\[?cxxtools\]?,\s*\[?([0-9.]+)\]?'
